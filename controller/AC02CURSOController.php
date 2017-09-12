@@ -19,6 +19,7 @@ class AC02CURSOController extends ControladorBase {
             $obAC02CURSO = new entidadAC02CURSO();
 
             $obAC02CURSO->setVAC02NOMBRE($_POST["AC02NOMBRE"]);
+            
             $obAC02CURSO->setVAC02CANTIDAD_HORAS_MAXIMA($_POST["AC02CANTIDAD_HORAS_MAXIMA"]);
 
             $result = $obAC02CURSO->dynamic_Sp($sP = "sp_ins_ac02curso", $obAC02CURSO->getArray($accion = 1));
