@@ -1,0 +1,85 @@
+
+.galeria
+{
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around; 
+}
+.galeria li
+{
+ margin: 3px; 
+}
+
+.galeria img
+{
+ width: 150px;
+ height: 100px;
+}
+ .deleteGMSimage
+{ 
+    top: 50 px;
+    float:right;
+    color:red;
+}
+.deleteGMSimage:hover {
+   background: #CCB;
+   color:red;
+}
+#canImg
+{
+    float: right;
+}
+/*archivos*/
+.archivo
+{
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.archivo li
+{
+ margin: 3px; 
+}
+.deleteGMSFile
+{
+   color:red;
+}
+.deleteGMSFile:hover {
+   background: #CCB;
+   color:red;
+}
+#canDoc
+{
+   float: right; 
+}
+#submit_formF
+{
+    margin-top:0.1%;
+    margin-bottom:0.1%;
+}
+#modal-body
+{
+    margin-top:0.1%;
+    margin-bottom:0.1%;
+    padding: 0.1%;
+}
+.modal-header
+{
+    padding: 0.1%;
+}
+
+
+html, body {
+  height: 100%; margin: 0; padding: 0
+}
+#MiMapa {
+  height: 700px; width: 600px;
+}
